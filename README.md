@@ -28,6 +28,8 @@ npm  install -s tether
         
 
 ### Componentes
+() event binding: data flows out of
+[] property binding: data flows into
 
 [*ngIf](https://angular.io/api/common/NgIf)
 
