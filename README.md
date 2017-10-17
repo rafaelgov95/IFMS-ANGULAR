@@ -1,7 +1,12 @@
 # IFMS-ANGULAR
 
+npm -install -s bootstrap
 
--     "styles": [
+npm -install -s jquery
+
+npm -install -s tether
+
+      "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "styles.css"
       ],
