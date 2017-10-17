@@ -2,12 +2,17 @@
 ## Tema: Angular CLI
 ## Autor : Rafael Viana
 
+### Criação do Projeto
+npm install  -g @angular/cli
 
-npm -install -s bootstrap
 
-npm -install -s jquery
+### Bootrap 3.7
 
-npm -install -s tether
+npm  install -s bootstrap
+
+npm  install -s jquery
+
+npm  install -s tether
 
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -20,7 +25,11 @@ npm -install -s tether
         
         
         
-*NgIf https://angular.io/api/common/NgIf
+        
+
+### Componentes
+
+[*NgIf] (https://angular.io/api/common/NgIf)
 
             @Component({
                     selector: 'ng-if-simple',
@@ -34,3 +43,21 @@ npm -install -s tether
                   class NgIfSimple {
                     show: boolean = true;
                   }
+                  
+                  
+[Routing] (https://angular.io/tutorial/toh-pt5)
+
+        
+        
+        @NgModule({
+              imports: [
+                BrowserModule,
+                FormsModule,
+                RouterModule.forRoot([
+                  {
+                    path: 'heroes',
+                    component: HeroesComponent
+                  }
+                ])
+              ],
+              
