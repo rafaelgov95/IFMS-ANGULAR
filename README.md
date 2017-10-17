@@ -1,4 +1,4 @@
-# Semana de Ciências e Tecnologia 
+# Semana de Ciências e Tecnologias - IFMS
 ## Tema: Angular CLI
 ## Autor : Rafael Viana
 
@@ -22,3 +22,15 @@ npm -install -s tether
         
 *NgIf https://angular.io/api/common/NgIf
 
+            @Component({
+                    selector: 'ng-if-simple',
+                    template: `
+                      <button (click)="show = !show">{{show ? 'hide' : 'show'}}</button>
+                      show = {{show}}
+                      <br>
+                      <div *ngIf="show">Text to show</div>
+                  `
+                  })
+                  class NgIfSimple {
+                    show: boolean = true;
+                  }
